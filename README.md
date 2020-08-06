@@ -24,8 +24,9 @@ This repository contains files for a binary classifier that can classify Araneae
 
 # How to use
 
-To try this CNN, simply clone the repo on your local machine and make sure to change the paths in config.py. The BinaryClassifier script will automatically search for and use a CUDA compatible gpu if available.
+To try this CNN, simply clone the repo on your local machine and make sure to change the paths in config.py. The BinaryClassifier script will automatically search for and use a CUDA compatible gpu if available. 
 
+Note: I rearranged the dataset from kaggle into train-test-validation (roughly 60-20-20 split). I uploaded the rearranged the dataset as a zipped file
 
 
 # Results
