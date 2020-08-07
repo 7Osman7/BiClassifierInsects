@@ -5,7 +5,7 @@ Submission for the binary classifier
 
 # Overview
 
-This repository contains files for a binary classifier that can classify Araneae and Coleoptera. I decided to go with a simplified AlexNet architecture (Alexnet with the last two convolution and pooling layers removed). I chose it as it is a proven and modern architecture that is not too resource intensive (compared to VGG-16 and other more complicated archs). After completing the model, I ran some training trials to tune the hyperparameters based on validation accuracy. The main bottleneck here was time, as I was not usig a GPU (CUDA wouldn't recognize my GPU).
+This repository contains files for a binary classifier that can classify Araneae and Coleoptera. I decided to go with a simplified AlexNet architecture (Alexnet with the last two convolution and pooling layers removed). I chose it as it is a proven and modern architecture that is not too resource intensive (compared to VGG-16 and other more complicated archs). After completing the model, I ran some training trials to tune the hyperparameters based on validation accuracy. The main bottleneck here was time, as I was not usig a GPU (CUDA wouldn't recognize my GPU). Therefore, there is still alot of possible improvements/tuning that can be done to the hyper-parameters, optimizer choice, and so on.
 
 
 
