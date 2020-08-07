@@ -31,4 +31,21 @@ Note: I rearranged the dataset from kaggle into train-test-validation (roughly 6
 
 # Results
 
-Overall, 
+Overall, I ran into a number of problems throughout the different trials, these included:
+* Training accuracy not increasing and fluctuating too heavily
+* Validation accuracy very high in first epoch, higher than training accuracy 
+* Loss not decreasing
+
+In addition to tuning the hyper-parametersto try and address the problems and improve the model, I also decided to try training with and without image augmentations (rotate, flip, crop, etc...). The training process with augmentation yielded higher validation accurracy values.
+
+The final chosen model had the following parameters:
+* image resolution: 128x128
+* batch size: 80
+* epochs: 70
+* Augmentations: True
+* Optimizer: Adam
+* Loss Function: Cross Entropy
+* CNN Architecture: Simplified AlexNet
+* Learning Rate: 0.005
+
+
