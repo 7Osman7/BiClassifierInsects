@@ -1,4 +1,4 @@
-#This is where hyper-parameters and paths are edited
+#This is where hyper-parameters and paths are edited. This file centralizes everything that can/should be changed by anyone testing the model
 
 
 
