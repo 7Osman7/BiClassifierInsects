@@ -48,4 +48,4 @@ The final chosen model had the following parameters:
 * CNN Architecture: Simplified AlexNet
 * Learning Rate: 0.005
 
-
+# Note: even with these parameters, the model seems to have a hard time learning. I am currently trying a different architecture
