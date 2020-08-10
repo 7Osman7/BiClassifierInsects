@@ -41,7 +41,7 @@ In addition to tuning the hyper-parameters to try and address the problems and i
 The final chosen model had the following parameters:
 * image resolution: 128x128
 * batch size: 80
-* epochs: 70
+* epochs: 1000+
 * Augmentations: True
 * Optimizer: Adam
 * Loss Function: Cross Entropy
