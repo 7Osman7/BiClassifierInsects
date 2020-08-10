@@ -51,6 +51,25 @@ The final chosen model had the following parameters:
 
 # Note: even with these parameters, the model seems to have a hard time learning. I am currently trying a different architecture
 
+# Improved CNN Implementation (Version 2)
+
+After manually going through the dataset to try and determine the somewhat poor performance of the original CNN, I came to the conclusion that since the insects make such a small part of the picture in alot of the pictures, I need to feed a higher resolution image into the CNN. Aditionally, I would have to extract more features/channels and include more convolution layers. I also tried a simpler architecture (just stacking conv and pooling layers). Overall, although the model has not finished running (limited computation power with my CPU, it has been performing significantly better over the first ~30 epochs.
+
+The Improved model had the following parameters:
+* image resolution: 200x200 (ideally I was aiming for 256 but my laptop could not handle it)
+* batch size: 128
+* epochs: TBD
+* Augmentations: True
+* Optimizer: Adam
+* Loss Function: Cross Entropy
+* CNN Architecture: Simple CNN architecture with 5 stacked conv&pool + one dropout and one linear
+* Learning Rate: 0.0001
+
+
+
+
+
+
 
 # Future ideas/improvement
 
