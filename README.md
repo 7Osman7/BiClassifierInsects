@@ -1,5 +1,5 @@
-# GluxkindAssignment
-Submission for the binary classifier 
+# Binary Image Classifier for insects
+
 
 
 
